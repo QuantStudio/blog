@@ -23,7 +23,7 @@
             <!-- Insert analytics code here -->
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        {{--<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">--}}
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
@@ -58,11 +58,6 @@
             <ul class="flex flex-col md:flex-row justify-center list-reset">
                 <li class="md:mr-2">
                     &copy; <a href="https://quant.studio" title="QuantStudio Website">QuantStudio</a> {{ date('Y') }}.
-                </li>
-
-                <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
                 </li>
             </ul>
         </footer>
