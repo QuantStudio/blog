@@ -3,16 +3,16 @@
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Blog Starter Template',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
-    'siteAuthor' => 'Author Name',
+    'siteName' => 'QuantStudio',
+    'siteDescription' => 'something about quant',
+    'siteAuthor' => 'G_will',
 
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
+            'author' => 'G_will', // Default author, if not provided in a post
             'sort' => '-date',
-            'path' => 'blog/{filename}',
+            'path' => 'blog/{date|Y/m/d}/{filename}',
         ],
         'categories' => [
             'path' => '/blog/categories/{filename}',

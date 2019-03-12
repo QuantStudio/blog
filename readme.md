@@ -1,3 +1,23 @@
+# QuantStudio Blog
+
+## 开发环境搭建
+
+
+
+## publish
+
+
+`npm run production`
+
+`git add -f build_production && git commit -m "build for publish"`
+
+`git subtree push --prefix build_production gh-pages master`
+
+其中 gh-pages 为地址是 https://github.com/QuantStudio/quantstudio.github.io 的 git remote
+
+
+---
+
 # Jigsaw Blog Starter Template
 
 This is a starter template for creating a beautiful, customizable blog in Jigsaw with minimal effort. You’ll only have to change a few settings and you’re ready to go.
