@@ -8,8 +8,7 @@ description: 测试一下是否可以正常方法
 cover_image: /assets/img/post-cover-image-2.png
 ---
 
-这里是内容。
-
+这里是内容
 
 ```python
 # 代码

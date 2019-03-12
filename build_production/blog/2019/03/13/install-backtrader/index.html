@@ -6,21 +6,21 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="something about quant">
 
-        <meta property="og:title" content="测试发布2 | QuantStudio"/>
+        <meta property="og:title" content="Backtrader 的安装 | QuantStudio"/>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://quant.studio/blog/2019/03/12/second-blog"/>
+        <meta property="og:url" content="https://quant.studio/blog/2019/03/13/install-backtrader"/>
         <meta property="og:description" content="something about quant" />
 
-        <title>QuantStudio | 测试发布2</title>
+        <title>QuantStudio | Backtrader 的安装</title>
 
         <link rel="home" href="https://quant.studio">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="QuantStudio Atom Feed">
 
-            <meta property="og:title" content="测试发布2" />
+            <meta property="og:title" content="Backtrader 的安装" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://quant.studio/blog/2019/03/12/second-blog"/>
-    <meta property="og:description" content="测试一下是否可以正常方法2" />
+    <meta property="og:url" content="https://quant.studio/blog/2019/03/13/install-backtrader"/>
+    <meta property="og:description" content="Backtrader 的安装" />
 
                     <!-- Insert analytics code here -->
         
@@ -44,7 +44,7 @@
 
                     <nav class="hidden lg:flex items-center justify-end text-lg">
     <a title="QuantStudio Blog" href="/blog"
-        class="ml-6 text-grey-darker hover:text-blue-dark active text-blue-dark">
+        class="ml-6 text-grey-darker hover:text-blue-dark ">
         Blog
     </a>
 
@@ -85,7 +85,7 @@
             <a
                 title="QuantStudio Blog"
                 href="/blog"
-                class="nav-menu__item hover:text-blue active text-blue"
+                class="nav-menu__item hover:text-blue "
             >Blog</a>
         </li>
         <li class="pl-4">
@@ -106,11 +106,11 @@
 </nav>
 
         <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-16 px-6">
-                        <img src="/assets/img/post-cover-image-1.png" alt="测试发布2 cover image" class="mb-2">
+                        <img src="/assets/img/post-cover-image-1.png" alt="Backtrader 的安装 cover image" class="mb-2">
     
-    <h1 class="leading-none mb-2">测试发布2</h1>
+    <h1 class="leading-none mb-2">Backtrader 的安装</h1>
 
-    <p class="text-grey-darker text-xl md:mt-0">G_will  •  2019-03-12</p>
+    <p class="text-grey-darker text-xl md:mt-0">G_will  •  2019-03-13</p>
 
                         <a
                 href="/blog/categories/backtrader"
@@ -119,19 +119,27 @@
             >backtrader</a>
             
     <div class="border-b border-blue-lighter mb-10 pb-4" v-pre>
-        <p>这里是内容。2</p>
-<pre><code class="language-python"># 代码
-def foo():
-    return bar()</code></pre>    </div>
+        <p>相较于其他一些量化交易工具来说，安装 Backtrader 是非常简单的，这主要得益于 Backtrader 的实现几乎没有依赖其他包，除了 matplotlib ，在其核心的数据处理与交易模拟撮合相关更是完全自己使用纯 Python 实现，整体上非常干净。</p>
+<p>另外，Backtrader 对于 Python 2/3 版本的兼容也做的比较好，当然在我看来，这个意义不大，更多应该是因为历史包袱，作者一路维护升级上来，观察 Backtrader 代码，可以看到一些作者处理 Python 2/3 兼容的方法，对于需要兼容 Python 2/3 的情景也许有些参考价值。</p>
+<p>但是，考虑到 matplotlib 当前版本对于 Python 版本的要求，我们还是最好使用最新的 Python 3.7 环境来安装 Backtrader 。</p>
+<p>首先用 conda 创建一个 Python 3.7 的环境</p>
+<pre><code>conda create -n btenv python=3.7</code></pre>
+<p>然后激活环境</p>
+<pre><code>conda activate btenv</code></pre>
+<p>通过 pypi 安装，并且包括 matplotlib ，方便绘图分析</p>
+<pre><code>pip install backtrader[plotting]</code></pre>
+<p>好了安装成功。</p>
+<p>打开解释器测试一下</p>
+<pre><code>import backtrader</code></pre>    </div>
 
     <nav class="flex justify-between text-sm md:text-base">
         <div>
+                            <a href="https://quant.studio/blog/2019/03/12/first-blog" title="Older Post: 测试发布">
+                    &LeftArrow; 测试发布
+                </a>
                     </div>
 
         <div>
-                            <a href="https://quant.studio/blog/2019/03/12/first-blog" title="Newer Post: 测试发布">
-                    测试发布 &RightArrow;
-                </a>
                     </div>
     </nav>
         </main>
