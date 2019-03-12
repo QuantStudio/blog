@@ -1,78 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://quant.studio/CNAME</loc>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
   <loc>https://quant.studio/blog/categories/configuration</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog/categories/feature</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog/test-publish</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/about</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog/2</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/blog/feed.atom</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio/contact</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://quant.studio</loc>
-  <lastmod>2019-03-12T02:27:32+00:00</lastmod>
+  <lastmod>2019-03-12T02:32:31+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>
