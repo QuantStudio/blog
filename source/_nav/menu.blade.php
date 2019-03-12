@@ -9,8 +9,8 @@
         About
     </a>
 
-    <a title="{{ $page->siteName }} Contact" href="/contact"
-        class="ml-6 text-grey-darker hover:text-blue-dark {{ $page->isActive('/contact') ? 'active text-blue-dark' : '' }}">
-        Contact
-    </a>
+    {{--<a title="{{ $page->siteName }} Contact" href="/contact"--}}
+        {{--class="ml-6 text-grey-darker hover:text-blue-dark {{ $page->isActive('/contact') ? 'active text-blue-dark' : '' }}">--}}
+        {{--Contact--}}
+    {{--</a>--}}
 </nav>
