@@ -9,7 +9,7 @@ cover_image: /assets/img/post-cover-image-1.png
 categories: [backtrader]
 ---
 
-相较于其他一些量化交易工具来说，安装 Backtrader 是非常简单的，这主要得益于 Backtrader 的实现几乎没有依赖其他包，除了 matplotlib ，在其核心的数据处理与交易模拟撮合相关更是完全自己使用纯 Python 实现，整体上非常干净。
+相较于其他一些量化交易工具来说，安装 Backtrader 是非常简单的，这主要得益于 Backtrader 的实现几乎没有依赖其他包，除了 matplotlib ，在其核心的数据处理与交易模拟撮合相关更是完全自己使用纯 Python 实现，整体上非常干净。
 
 另外，Backtrader 对于 Python 2/3 版本的兼容也做的比较好，当然在我看来，这个意义不大，更多应该是因为历史包袱，作者一路维护升级上来，观察 Backtrader 代码，可以看到一些作者处理 Python 2/3 兼容的方法，对于需要兼容 Python 2/3 的情景也许有些参考价值。
 
