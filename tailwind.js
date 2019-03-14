@@ -192,43 +192,53 @@ screens: {
 |
 */
 
-// fonts: {
-//   'sans': [
-//     'Nunito Sans',
-//     'system-ui',
-//     'BlinkMacSystemFont',
-//     '-apple-system',
-//     'Segoe UI',
-//     'Roboto',
-//     'Oxygen',
-//     'Ubuntu',
-//     'Cantarell',
-//     'Fira Sans',
-//     'Droid Sans',
-//     'Helvetica Neue',
-//     'sans-serif',
-//   ],
-//   'serif': [
-//     'Constantia',
-//     'Lucida Bright',
-//     'Lucidabright',
-//     'Lucida Serif',
-//     'Lucida',
-//     'DejaVu Serif',
-//     'Bitstream Vera Serif',
-//     'Liberation Serif',
-//     'Georgia',
-//     'serif',
-//   ],
-//   'mono': [
-//     'Menlo',
-//     'Monaco',
-//     'Consolas',
-//     'Liberation Mono',
-//     'Courier New',
-//     'monospace',
-//   ]
-// },
+fonts: {
+  'sans': [
+    '-apple-system',
+    'BlinkMacSystemFont',
+    'Segoe UI',
+    'PingFang SC',
+    'Hiragino Sans GB',
+    'Microsoft YaHei',
+    'Helvetica Neue',
+    'Helvetica',
+    'Arial',
+    'sans-serif',
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol'
+  ],
+  'serif': [
+    '-apple-system',
+    'BlinkMacSystemFont',
+    'Segoe UI',
+    'PingFang SC',
+    'Hiragino Sans GB',
+    'Microsoft YaHei',
+    'Helvetica Neue',
+    'Helvetica',
+    'Arial',
+    'sans-serif',
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol'
+  ],
+  'mono': [
+    '-apple-system',
+    'BlinkMacSystemFont',
+    'Segoe UI',
+    'PingFang SC',
+    'Hiragino Sans GB',
+    'Microsoft YaHei',
+    'Helvetica Neue',
+    'Helvetica',
+    'Arial',
+    'sans-serif',
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol'
+  ]
+},
 
 
 /*
