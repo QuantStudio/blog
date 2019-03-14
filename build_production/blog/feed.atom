@@ -3,12 +3,40 @@
     <title>QuantStudio</title>
     <link href="https://quant.studio" />
     <link type="application/atom+xml" rel="self" href="https://quant.studio/blog/feed.atom" />
-    <updated>2019-03-12T08:14:12+00:00</updated>
+    <updated>2019-03-14T02:12:12+00:00</updated>
     <id>https://quant.studio/blog/feed.atom</id>
     <author>
         <name>G_will</name>
     </author>
                 <entry>
+    <id>https://quant.studio/blog/2019/03/14/quant-tools-comparison</id>
+    <link type="text/html" rel="alternate" href="https://quant.studio/blog/2019/03/14/quant-tools-comparison" />
+    <title>量化工具对比</title>
+    <published>2019-03-14T00:00:00+00:00</published>
+    <updated>2019-03-14T00:00:00+00:00</updated>
+    <author>
+        <name>G_will</name>
+    </author>
+    <summary type="html">virtualenv...</summary>
+    <content type="html"><![CDATA[
+        <p>virtualenv</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://quant.studio/blog/2019/03/13/manage-python-env</id>
+    <link type="text/html" rel="alternate" href="https://quant.studio/blog/2019/03/13/manage-python-env" />
+    <title>Python 开发环境管理</title>
+    <published>2019-03-13T00:00:00+00:00</published>
+    <updated>2019-03-13T00:00:00+00:00</updated>
+    <author>
+        <name>G_will</name>
+    </author>
+    <summary type="html">virtualenv...</summary>
+    <content type="html"><![CDATA[
+        <p>virtualenv</p>
+    ]]></content>
+</entry>
+            <entry>
     <id>https://quant.studio/blog/2019/03/13/install-backtrader</id>
     <link type="text/html" rel="alternate" href="https://quant.studio/blog/2019/03/13/install-backtrader" />
     <title>Backtrader 的安装</title>
@@ -17,9 +45,9 @@
     <author>
         <name>G_will</name>
     </author>
-    <summary type="html">相较于其他一些量化交易工具来说，安装 Backtrader 是非常简单的，这主要得益于 Backtrader 的实现几乎没有依赖其他包，除了 matplotlib......</summary>
+    <summary type="html">相较于其他一些量化交易工具来说，安装 Backtrader 是非常简单的，这主要得益于 Backtrader 的实现几乎没有依赖其他包，除了 matplotlib......</summary>
     <content type="html"><![CDATA[
-        <p>相较于其他一些量化交易工具来说，安装 Backtrader 是非常简单的，这主要得益于 Backtrader 的实现几乎没有依赖其他包，除了 matplotlib ，在其核心的数据处理与交易模拟撮合相关更是完全自己使用纯 Python 实现，整体上非常干净。</p>
+        <p>相较于其他一些量化交易工具来说，安装 Backtrader 是非常简单的，这主要得益于 Backtrader 的实现几乎没有依赖其他包，除了 matplotlib ，在其核心的数据处理与交易模拟撮合相关更是完全自己使用纯 Python 实现，整体上非常干净。</p>
 <p>另外，Backtrader 对于 Python 2/3 版本的兼容也做的比较好，当然在我看来，这个意义不大，更多应该是因为历史包袱，作者一路维护升级上来，观察 Backtrader 代码，可以看到一些作者处理 Python 2/3 兼容的方法，对于需要兼容 Python 2/3 的情景也许有些参考价值。</p>
 <p>但是，考虑到 matplotlib 当前版本对于 Python 版本的要求，我们还是最好使用最新的 Python 3.7 环境来安装 Backtrader 。</p>
 <p>首先用 conda 创建一个 Python 3.7 的环境</p>
